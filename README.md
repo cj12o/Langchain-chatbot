@@ -84,7 +84,7 @@ uvicorn main:app --reload
 
 5️⃣ Run the frontend
 ```bash
-streamlit run Home.py
+streamlit run frontend/Home.py
 ```
 
 6️⃣Additional setup
