@@ -87,10 +87,10 @@ uvicorn main:app --reload
 streamlit run Home.py
 ```
 
-6️⃣#Additional setup
-
--Local run model hermes serves as chat completion model (run via Lm studio)
--ocal run model nomic serves as embedding model (run via ollama cli)
+6️⃣Additional setup
+🛠️ Tech Stack:
+- Local run model hermes serves as chat completion model (run via Lm studio).
+- Local run model nomic serves as embedding model (run via ollama cli).
 
 👤 Author
 Chitransh Jain (cj12o)
