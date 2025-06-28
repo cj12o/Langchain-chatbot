@@ -34,22 +34,22 @@ The goal of this project is to:
 ---
 
 🔑 Key Features:
-• Session-based context memory – maintains conversational flow within and across sessions
-• Previous session RAG toggle – reuse knowledge from past chats efficiently
-• Automated summarization – at session end, summarises chats to build an optimized vector DB for future sessions
-• Real-time token streaming – significantly reduces Time To First Token (TTFT) and improves user experience
-• Detailed metrics logging – TTFT, input/output tokens per response to analyze performance
-• Clean UI – view chat history session-wise, date-wise, or in entirety, and export in JSON format
-• Reset session context on-demand – no need to restart sessions manually
+- Session-based context memory – maintains conversational flow within and across sessions
+- Previous session RAG toggle – reuse knowledge from past chats efficiently
+- Automated summarization – at session end, summarises chats to build an optimized vector DB for future sessions
+- Real-time token streaming – significantly reduces Time To First Token (TTFT) and improves user experience
+- Detailed metrics logging – TTFT, input/output tokens per response to analyze performance
+- Clean UI – view chat history session-wise, date-wise, or in entirety, and export in JSON format
+- Reset session context on-demand – no need to restart sessions manually
 
 🛠️ Tech Stack:
-• LangChain – prompt templates and plug-and-play model integration
-• FastAPI – backend APIs
-• Streamlit – intuitive frontend UI
-• MongoDB – chat and metrics storage
-• LLMs – locally run via Ollama & LM Studio:
-→ nomic-embed-text:v1.5 for embeddings
-→ hermes-3-llama-3.2-3b as the main chat completion model
+- LangChain – prompt templates and plug-and-play model integration(run any llm)
+- FastAPI – backend APIs
+- Streamlit – intuitive frontend UI
+- MongoDB – chat and metrics storage
+- LLMs – locally run via Ollama & LM Studio:
+- nomic-embed-text:v1.5 for embeddings
+- hermes-3-llama-3.2-3b as the main chat completion model
 
 
 ## ⚙️ **Setup Guide**
@@ -86,6 +86,11 @@ uvicorn main:app --reload
 ```bash
 streamlit run Home.py
 ```
+
+6️⃣#Additional setup
+
+-Local run model hermes serves as chat completion model (run via Lm studio)
+-ocal run model nomic serves as embedding model (run via ollama cli)
 
 👤 Author
 Chitransh Jain (cj12o)
