@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-pydantic
-langchain_core
-langchain_community
-langchain_openai
-langchain_ollama
-json
