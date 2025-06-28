@@ -97,8 +97,6 @@ Chitransh Jain (cj12o)
 🔗 LinkedIn <https://www.linkedin.com/in/chitransh-jain-71bbb3336/>
 📧jchitransh@gmail.com
 
-📄 License
-This project is licensed under the MIT License — free to use and modify.
 
 ⭐ Support
 If you like this project, feel free to ⭐ star the repo and connect on LinkedIn!
