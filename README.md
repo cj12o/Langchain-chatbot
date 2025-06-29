@@ -8,12 +8,12 @@ A **personal chatbot project** built to learn and apply practical concepts in co
 <pre>
 Langchain_chatbot/
 ├── backend/ # FastAPI or server-side code
-│ ├── main.py # Example backend entry point
+│ ├── main.py 
 │ └── ...
-├── frontend/ # Frontend UI (Streamlit / Gradio / React)
-│ ├── Home.py # Example UI entry point
+├── frontend/ # Frontend UI (Streamlit )
+│ ├── Home.py #  UI entry point
 │ └── ...
-├── chroma_db_dir/ # Local vector DB storage (ignored in Git)
+├── chroma_db_dir/ # Local vector DB storage 
 ├── requirements.txt # Python dependencies
 ├── .gitignore # Ignored files and folders
 └── README.md # This file
@@ -57,7 +57,7 @@ The goal of this project is to:
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Langchain_chatbot.git
+git clone https://github.com/cj12o/Langchain_chatbot.git
 cd Langchain_chatbot
 ```
 2️⃣ Create a virtual environment
